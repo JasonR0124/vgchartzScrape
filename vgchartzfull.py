@@ -154,7 +154,7 @@ def fetch_game_data(tag):
     if release_year.startswith('N/A'):
         record['Year'] = 'N/A'
     else:
-        if int(release_year) >= 80:
+        if int(release_year) >= 70:
             year_to_add = np.int32("19" + release_year)
         else:
             year_to_add = np.int32("20" + release_year)
