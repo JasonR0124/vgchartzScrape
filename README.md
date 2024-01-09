@@ -9,5 +9,7 @@ It can be installed by pip.
 
 sudo pip install BeautifulSoup
 
+You also need to install pandas, time, and glob. 
+
 Thanks to Chris Albon.
 http://chrisalbon.com/python/beautiful_soup_scrape_table.html
